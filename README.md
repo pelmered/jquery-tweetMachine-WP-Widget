@@ -6,7 +6,7 @@ jquery-tweetMachine-WP-Widget
 
 ## Setup
 
-1. Get API keys for authenticating.To do this:
+1. Get API keys for authenticating and add them to sf-twitter-backend.php. To get the keys, do this:
 
   1.1. Go to https://dev.twitter.com/apps and create a new application
   
