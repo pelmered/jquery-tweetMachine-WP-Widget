@@ -1,7 +1,7 @@
 jquery-tweetMachine-WP-Widget
 =============================
 
-#WP Widget usning [ryangiglio's](https://github.com/ryangiglio/) excellent [jquery-tweetMachine](https://github.com/ryangiglio/jquery-tweetMachine) Twitter live feed jQuery plugin
+###WP Widget usning [ryangiglio's](https://github.com/ryangiglio/) excellent [jquery-tweetMachine](https://github.com/ryangiglio/jquery-tweetMachine) Twitter live feed jQuery plugin
 
 
 ## Setup
