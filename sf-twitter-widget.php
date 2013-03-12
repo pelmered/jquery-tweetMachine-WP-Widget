@@ -53,10 +53,8 @@ class sf_twitter_widget extends baseWidgetClass
 ?>
     <script type="text/javascript" src="<?php echo plugin_dir_url(__FILE__);?>js/tweetMachine.js" ></script>
     <script type="text/javascript">
-        //'@TelecomCity OR TelecomCity OR from:TelecomCity AND -"unfollowed me"',
         $('#sf-twitter-feed').tweetMachine(
-            '@TelecomCity OR TelecomCity OR from:TelecomCity AND -"unfollowed me"',	
-            //'@social_factory OR social_factory OR from:social_factory AND -"unfollowed me"',		
+            '@social_factory OR social_factory OR from:social_factory AND -"unfollowed me"',		
             {
                 endpoint: 'search/tweets',
                 backendScript: '<?php echo plugin_dir_url(__FILE__);?>sf-twitter-backend.php',
@@ -85,11 +83,6 @@ class sf_twitter_widget extends baseWidgetClass
                 
             }
         );
-        /*
-		$('#twitter_search').liveTwitter('@TelecomCity OR TelecomCity OR from:TelecomCity AND -"unfollowed me"', {limit: 5, rate: 5000,imageSize:40});
-   		TC.Utils.BaseUrl = "<?php bloginfo("url");?>";
-		var _SFBaseUrl = TC.Utils.BaseUrl;
-        */
 	</script>
 <?php
    }
