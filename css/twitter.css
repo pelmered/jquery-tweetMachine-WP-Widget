@@ -1,0 +1,89 @@
+/* 
+    Document   : twitter
+    Created on : 2013-jan-25, 13:55:08
+    Author     : Peter Elmered
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#sf-twitter-feed {
+    position: relative;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+#sf-twitter-feed  #twitter-placeholder {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin: 0 0 0 -40px;
+    display: block;
+    text-align: center;
+}
+
+.tweet {
+   display: block;
+   margin-bottom: 20px;
+   clear: both;
+   position: relative;
+   padding-bottom: 14px;
+}
+.tweet:before,
+.tweet:after {
+    content: "";
+    display: table;
+}
+.tweet:after {
+clear: both;
+}
+.tweet .meta {
+   width: 220px;
+   margin: 0 0 0 20px;
+   float: left;
+   line-height: 1;
+   padding: 0;
+    
+}
+.tweet p,
+.tweet .meta a {
+   font-size: 10px;
+   font-weight: bold;
+    text-transform: uppercase;   
+    clear: right;
+}
+.tweet .meta a {
+   line-height: 1;
+}
+.tweet .meta .time {
+   position: absolute;
+   bottom: 0;
+   left: 60px;
+   width: 220px;
+   color: #999;
+    display: block;
+}
+.tweet .content {
+   width: 220px;
+   margin: 0 0 0 20px;
+   float: left;
+   line-height: 1.2;
+}
+
+.tweet p span.username {
+   color: #ca002c;
+   display: block;
+}
+.tweet p span.time a {
+   color: #999;
+   display: block;
+}
+.tweet img {
+   width: 40px;
+   float: left;
+   padding: 5px 0;
+}
+.no-tweets-notice {
+    margin: 70px 0;
+    text-align: center;
+}
